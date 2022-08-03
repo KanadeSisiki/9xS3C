@@ -1,41 +1,77 @@
 {
-    "Table":
-    [
-        {
-            "Directry": "Tsurukawa",
-            "Table_Title": "鶴川駅 方面",
-            "Color": [151, 205, 243]
-        },
-
-        {
-            "Title": "Wakabadai",
-            "Table_Title": "若葉台駅 方面",
-            "Color": [194, 211, 148]
-        }
-    ],
-    
-    "Language":
-    [
-        {
-            "LanguageCode": "JP",
-            "Minute": "分"
-        },
+            ""Table"":
+            [
+                {
+                    ""Directory"": ""Tsurukawa"",
+                    ""Table_Title"": ""鶴川駅 方面"",
+                    ""Color"": [151, 205, 243]
+                },
         
-        {
-            "LanguageCode": "EN",
-            "Minute": "Min"
+                {
+                    ""Directory"": ""Wakabadai"",
+                    ""Table_Title"": ""若葉台駅 方面"",
+                    ""Color"": [194, 211, 148]
+                }
+            ],
+        
+            ""Language"":
+            [
+                {
+                    ""LanguageCode"": ""JP"",
+                    ""Minute"": ""分""
+                },
+            
+                {
+                    ""LanguageCode"": ""EN"",
+                    ""Minute"": ""Min""
+                }
+            ],
+        
+        
+        
+            ""ShowScript"":
+            [
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Tsurukawa"",
+                ""Language"" : ""JP""
+            },
+            
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Tsurukawa"",
+                ""Language"" : ""EN""
+            },
+        
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Tsurukawa"",
+                ""Language"" : ""JP""
+            },
+        
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Wakabadai"",
+                ""Language"" : ""JP""
+            },
+        
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Wakabadai"",
+                ""Language"" : ""EN""
+            },
+        
+            {
+                ""Duration"" : 6,
+                ""UseModule"": ""BusNavi"",
+                ""Directory"": ""Wakabadai"",
+                ""Language"" : ""JP""
+            }
+        
+            ]
         }
-    ],
-
-
-
-    "ShowScript":
-    [
-        ["6","BusNavi","Tsurukawa","JP"],
-        ["6","BusNavi","Tsurukawa","EN"],
-        ["6","BusNavi","Tsurukawa","JP"],
-        ["6","BusNavi","Wakabadai","JP"],
-        ["6","BusNavi","Wakabadai","EN"],
-        ["6","BusNavi","Wakabadai","JP"]
-    ]
-}
