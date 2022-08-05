@@ -32,42 +32,42 @@
             "ShowScript":
             [
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Tsurukawa",
                 "Language" : "JP"
             },
             
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Tsurukawa",
                 "Language" : "EN"
             },
         
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Tsurukawa",
                 "Language" : "JP"
             },
         
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Wakabadai",
                 "Language" : "JP"
             },
         
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Wakabadai",
                 "Language" : "EN"
             },
         
             {
-                "Duration" : 6,
+                "Duration" : 1,
                 "UseModule": "BusNavi",
                 "Directory": "Wakabadai",
                 "Language" : "JP"
